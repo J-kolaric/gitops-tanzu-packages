@@ -2,6 +2,7 @@ apiVersion: packaging.carvel.dev/v1alpha1
 kind: PackageInstall
 metadata:
   annotations:
+    ext.packaging.carvel.dev/ytt-paths-from-secret-name.1: harbor-database-redis-trivy-jobservice-registry-image-overlay
     tkg.tanzu.vmware.com/tanzu-package-ClusterRole: harbor-packages-cluster-role
     tkg.tanzu.vmware.com/tanzu-package-ClusterRoleBinding: harbor-packages-cluster-rolebinding
     tkg.tanzu.vmware.com/tanzu-package-Secret: harbor-packages-values
