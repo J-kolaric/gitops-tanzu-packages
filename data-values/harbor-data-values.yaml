@@ -39,7 +39,7 @@ persistence:
   persistentVolumeClaim:
     registry:
       existingClaim: ""
-      storageClass:
+      storageClass: "tanzu-sp"
       subPath: ""
       accessMode: ReadWriteOnce
       size: 50Gi
